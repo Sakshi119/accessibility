@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fully accessible webpage template with best practices for accessibility.">
+    <title>Accessible Webpage</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Accessible Webpage</h1>
+        <nav>
+            <a href="#main-content" accesskey="1">Skip to Content</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="font-size-controls">
+            <button id="increase-font">A+</button>
+            <button id="default-font">A</button>
+            <button id="decrease-font">A-</button>
+            <button id="toggle-darkmode">Toggle Dark Mode</button>
+        </div>
+
+        <section>
+            <div class="img-section">
+                <div>
+                    <h2>Welcome to our Accessible Webpage</h2>
+                    <p>This page is designed with accessibility in mind, ensuring that everyone can use and enjoy it.
+                    </p>
+                    <button onclick="alert('Button clicked!')">Click Me</button>
+                </div>
+
+                <img src="assets/images/img1.jpg" alt="thoughts , imagination" width="500" height="450px">
+            </div>
+        </section>
+
+        <section>
+            <div class="img-section" style="margin-top:20px">             
+                    <div class="card card1"></div>
+                    <div class="card card2"></div>
+                    <div class="card card3"></div>
+                    <div class="card card4"></div>        
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Accessible Web Design. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
